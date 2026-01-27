@@ -3,6 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from caas_jupyter_tools import display_dataframe_to_user
 
+#Since my notes are kind of sloppy I had chatgpt remake this neater and add instructions for your convenience :) 
+# - Nate
+
 # ---- Inputs ----
 csv_in = "/mnt/data/lgd_toy_pkpd_daybyday.csv"
 TT_baseline = 622.0
@@ -50,3 +53,4 @@ for scen, g in df.groupby("Scenario"):
     plt.show()
 
 print("Wrote:", csv_out)
+
