@@ -4,4 +4,6 @@
 
 ---
 
-![Cover](Cover.png)
+<p align="center">
+  <img src="Cover.png" alt="Cover" width="100%">
+</p>
