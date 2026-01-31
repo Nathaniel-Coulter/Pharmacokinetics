@@ -1,15 +1,5 @@
 # ============================================================
-# Goal 1A–C (One-shot) — Observed Suppression + Velocity + Inversion
-# Outputs CSVs to: C:\Users\hocke\Desktop\Pharmacokinetics\figures
-#
-# What this script does:
-#   1A) Endpoint suppression fraction + suppression%
-#   1B) Suppression velocity (% per week)
-#   1C) Inversion (model lens): suppression -> implied exposure (AUC proxy band)
-#       using PD uncertainty draws (Emax, EC50) fit to Basaria anchors.
-#       Also reports AUC21-equivalent exposure under two PK half-life scenarios.
-#
-# Run once. No dependencies beyond numpy/pandas.
+# (One-shot) — Observed Suppression + Velocity + Inversion
 # ============================================================
 
 import os
@@ -19,13 +9,12 @@ import pandas as pd
 # -----------------------------
 # USER SETTINGS
 # -----------------------------
-OUTPUT_DIR = r"C:\Users\hocke\Desktop\Pharmacokinetics\figures"
+OUTPUT_DIR = r"C:\Users\(name)\Desktop\Pharmacokinetics\figures"
 
-# If you already have this file from earlier work and want to use it, set this path.
-# If it doesn't exist, the script will regenerate PD draws internally.
+# If this file doesn't exist for you that's fine, the script will regenerate PD draws internally.
 PD_DRAWS_CSV_OPTIONAL = None
-# Example:
-# PD_DRAWS_CSV_OPTIONAL = r"C:\Users\hocke\Desktop\Pharmacokinetics\figures\lgd_level2_pd_draws_posteriorish.csv"
+
+# Ex: PD_DRAWS_CSV_OPTIONAL = r"C:\Users\you\Desktop\Pharmacokinetics\figures\lgd_level2_pd_draws_posteriorish.csv"
 
 # -----------------------------
 # INPUT DATA (your table)
@@ -223,3 +212,4 @@ print(" -", csv_1A1B)
 print(" -", csv_1C)
 print(" -", csv_all)
 print(" -", csv_pd)
+
