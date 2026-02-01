@@ -1,0 +1,2 @@
+case_id,dose_mg_per_day,t_mid_days,t_end_days,TT_pre,TT_mid,TT_post,y_pre_mid,y_mid_end,y_pre_end,supp_pct_pre_mid,supp_pct_mid_end,supp_pct_pre_end,vel_pct_per_week_pre_mid,vel_pct_per_week_mid_end,vel_pct_per_week_pre_end,s1_frac_per_day,s2_frac_per_day,shape_flag
+special_1,10.0,42,84,483.0,286.0,190.0,0.4078674948240166,0.3356643356643357,0.6066252587991718,40.78674948240166,33.56643356643357,60.66252587991718,6.797791580400276,5.594405594405594,5.055210489993098,0.009711130829143252,0.004732327713694173,slowed_or_plateaued
