@@ -1,0 +1,2 @@
+case_id,TT_pre,TT_post,duration_days,duration_weeks,observed_suppression_fraction_yobs,observed_suppression_pct,suppression_velocity_pct_per_week,total_mg_over_schedule,time_weighted_avg_dose_mg_per_day,Emax_used,EC50_used,schedule_avg_effect_ybar,schedule_total_effect_sum_y,schedule_aware_equivalent_dose_d_emax_mg_per_day,d_emax_over_d_avg_ratio
+special_2,689.3,268.2,42,6.0,0.6109096184535036,61.09096184535036,10.181826974225059,367.5,8.75,1.0,10.0,0.4571428571428572,19.200000000000003,8.421052631578949,0.9624060150375942
