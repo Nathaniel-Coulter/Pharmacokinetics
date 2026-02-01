@@ -1,6 +1,6 @@
 # View PDF 👇
 
-[Modeling Nonlinear Pharmacokinetics - Nathaniel Coulter.PDF](https://github.com/Nathaniel-Coulter/Pharmacokinetics/blob/1c15873e25de641c3b981b4b177af41ef1dc6faa/Modeling%20Nonlinear%20Pharmacokinetics%20-%20Nathaniel%20Coulter.pdf)
+[Modeling Nonlinear Pharmacokinetics (UPDATED) - Nathaniel Coulter.PDF](https://github.com/Nathaniel-Coulter/Pharmacokinetics/blob/bdfd3b56c395d976835f9d6813849ede989af800/Modeling%20Nonlinear%20Pharmacokinetics%20(UPDATED).pdf))
 
 ---
 
