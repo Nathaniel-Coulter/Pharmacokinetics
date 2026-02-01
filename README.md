@@ -5,5 +5,5 @@
 ---
 
 <p align="center">
-  <img src="Cover1.jpg" alt="Cover.jpg" width="100%">
+  <img src="Cover.jpg" alt="Cover.jpg" width="100%">
 </p>
